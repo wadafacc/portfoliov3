@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'portfoliov3',
+    title: 'HELLO THERE I HOPE YOU ARE HAVING A GREAT DAY AND HAD A GREAT MORNING WITH A ICE COLD SHOWER AND A NICE CUP OF COFFEE AFTERWARDS',
     htmlAttrs: {
       lang: 'en'
     },
