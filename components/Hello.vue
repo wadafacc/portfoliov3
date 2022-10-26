@@ -38,9 +38,6 @@
           </li>
         </ul>
       </div>
-      <div class="footer">
-        jokes on you, an actual portfolio is in progress!
-      </div>
     </div>
   </div>
 </template>
