@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Major+Mono+Display&display=swap');
+
+html,
+body,
+#__nuxt,
+#__layout {
+    height: 100% !important;
+    width: 100% !important;
+    background-image: linear-gradient(65deg, #200037, #32ded4);
+    font-family: 'Cutive Mono', monospace;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin-left: 2.5rem;
+}
+
+a {
+    color: #200037;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #32ded4;
+    text-decoration: underline;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 70%;
+    width: 70%;
+    margin: 1rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2rem 2rem #000;
+    animation: wobble 4s infinite;
+}
+
+.contents {
+    position: relative;
+    height: 90%;
+    width: 80%;
+    margin: 3rem;
+}
+
+.title {
+    font-family: 'Major Mono Display', monospace;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+}
+
+.text,
+.stats {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+@keyframes wobble {
+    25% {
+        transform: rotateZ(1deg);
+    }
+
+    50% {
+        transform: rotateZ(-1deg);
+    }
+
+    75% {
+        transform: rotateZ(1deg);
+    }
+
+    100% {
+        transform: rotateZ(0deg);
+    }
+
+}
