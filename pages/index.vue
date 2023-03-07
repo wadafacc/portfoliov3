@@ -27,7 +27,7 @@
       <div class="card" id="card">
       <div class="bg-image"></div>
       <div id="bg">
-        <div class="bg-effect"></div>
+        <div class="bg-image"></div>
         <div>
           <h1>Hey! <span>I'm Timo.</span></h1>
           <div class="text">
@@ -45,8 +45,7 @@
           </div>
         </div>
       </div>    
-      <div class="bg-effect"></div>
-      <div class="content" >
+      <div class="content">
         <span id="click">CLICK ME</span>
         <div class="footer">
           <span class="title">ANOTHER WORLD</span>
