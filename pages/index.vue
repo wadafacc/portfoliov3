@@ -62,22 +62,22 @@ export default {
       let sp = document.getElementById("sp");
       let tw = document.getElementById("tw");
 
-      dc.style.transform = "translate(-25rem, -25rem)";
+      dc.style.transform = "translate(-20rem, -23rem)";
       dc.style.opacity = "100%";
 
-      cat.style.transform = "translate(-24rem, 22rem)";
+      cat.style.transform = "translate(-22rem, 18rem)";
       cat.style.opacity = "100%";
 
-      yt.style.transform = "translate(15rem, -28rem)";
+      yt.style.transform = "translate(15rem, -20rem)";
       yt.style.opacity = "100%";
 
-      gh.style.transform = "translate(18rem, 24rem)";
+      gh.style.transform = "translate(18rem, 16rem)";
       gh.style.opacity = "100%";
 
-      sp.style.transform = "translate(24rem, 2rem)";
+      sp.style.transform = "translate(20rem, 2rem)";
       sp.style.opacity = "100%";
 
-      tw.style.transform = "translate(-30rem, -6rem)";
+      tw.style.transform = "translate(-25rem, -6rem)";
       tw.style.opacity = "100%";
 
     },
