@@ -1,8 +1,7 @@
 <template>
   <div class="container" @mousemove="move()">
-    <div id="tracer" class="tracer-wrapper">
-      <div class="tracer"></div>
-    </div>
+    <div class="blur"></div>
+    <div id="blob" class="tracer"></div>
     <div class="link-container" id="links">
         <a class="link" id="yt" href="https://youtube.com/@tnksboi" target="_blank">
           <img src="~/assets/youtube.png" alt="">
@@ -37,7 +36,7 @@
           <div class="text">I have around 3 years experience in developing, maintaining, testing and breaking all sorts of applications, to make the</div>
           <span class="highlight">internet a better place.</span>
           <div class="text">
-           Get in touch! Feel free to shoot me a DM on any of my socials.
+            Get in touch! Feel free to shoot me a DM on any of my socials.
           </div>
           <div class="text-footer">
             Cheers,<br/>
@@ -138,7 +137,7 @@ export default {
       tw.style.opacity = "0%";
     },
     move() {
-      let tracer = document.getElementById("tracer");
+      let tracer = document.getElementById("blob");
       let {clientX, clientY} = window.event;
       
       tracer.animate({
