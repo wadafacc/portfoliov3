@@ -16,7 +16,7 @@
         <a class="link" id="sp" href="https://open.spotify.com/user/wiad858gtdujymm1qhgp5fbex?si=6aacc31d17524838" target="_blank">
           <img src="~/assets/spotify.png" alt="">
         </a>
-        <a class="link" id="cat" href="https://www.youtube.com/watch?v=P9fMOhhFr0s" target="_blank">
+        <a class="link" id="cat" href="https://www.youtube.com/watch?v=CbozHK38jDc" target="_blank">
           <img id="cat-img" src="~/assets/vibin2.gif" alt="">
         </a>
       </div>
