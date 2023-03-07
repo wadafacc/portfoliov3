@@ -38,6 +38,9 @@
 <script>
 export default {
   name: "IndexPage",
+  mounted(){
+    console.log("Hey! No, this is not responsive just yet. ");
+  },
   methods:{
     turn(){
       let card = document.getElementById("card");
